@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+ 	function func1(){
+		 var number = document.getElementById("number").value;
+         var price = document.getElementById("price").value;
+		 var total = parseInt(number) * parseInt(price);
+		 document.getElementById("total").value=total;
+		 return total;
+	}
+	window.onload=func1;
+ </script>
+<input id="price1">
+<input id="number1">
+<input id="toatl">
+</body>
+</html>

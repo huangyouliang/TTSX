@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for a in user_info %}
+姓名1：{{ a.name }}
+姓名2：{{ name }}
+{% endfor %}
+-------------
+姓名1：{{ user_info.name }}
+姓名2：{{ name }}
+
+<a>{{ SITE_NAME }}</a>
+<li>{{ SITE_DESC }}</li>
+</body>
+</html>
